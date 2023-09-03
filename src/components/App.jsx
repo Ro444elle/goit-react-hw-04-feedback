@@ -42,6 +42,7 @@ export const App = () => {
   );
 };
 
+// *
 App.propTypes = {
   feedbackCounts: PropTypes.shape({
     good: PropTypes.number.isRequired,
@@ -51,3 +52,4 @@ App.propTypes = {
   handleFeedback: PropTypes.func.isRequired,
   totalFeedback: PropTypes.number.isRequired,
 };
+// *
